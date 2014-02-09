@@ -12,6 +12,7 @@ node["dotfiles"]["users"].each do |username|
     group username
     reference "master"
     action :sync
+    enable_submodules true
   end
 
   node["dotfiles"]["files"].each do |file|
