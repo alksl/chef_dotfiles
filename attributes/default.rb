@@ -1,2 +1,2 @@
-default["chef_dotfiles"]["repo"] = "https://github.com/alksl/dotfiles.git"
-default["chef_dotfiles"]["files"] = %w{zshrc vimrc vim zsh}
+default["dotfiles"]["repo"] = "https://github.com/alksl/dotfiles.git"
+default["dotfiles"]["files"] = %w{zshrc vimrc vim zsh}
