@@ -1,6 +1,6 @@
-name             'chef_dotfiles'
-maintainer       'euronetics'
-maintainer_email 'anton.holmgren@vikariebanken.se'
+name             'dotfiles'
+maintainer       'Anton Holmgren'
+maintainer_email 'me@antonholmgren.com'
 license          'MIT'
 description      'Installs/Configures dotfiles'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
